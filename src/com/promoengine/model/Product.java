@@ -2,25 +2,25 @@ package com.promoengine.model;
 
 public class Product {
     private String productId;
-    private Double productPrice;
+    private Integer productPrice;
 
     public Product() {
     }
 
     public Product(String productId) {
         this.productId = productId;
-        switch (productId){
+        switch (productId) {
             case "A":
-                this.productPrice = 50.00;
+                this.productPrice = 50;
                 break;
             case "B":
-                this.productPrice = 30.00;
+                this.productPrice = 30;
                 break;
             case "C":
-                this.productPrice = 20.00;
+                this.productPrice = 20;
                 break;
             case "D":
-                this.productPrice = 15.00;
+                this.productPrice = 15;
                 break;
         }
     }
@@ -29,7 +29,7 @@ public class Product {
         return productId;
     }
 
-    public Double getProductPrice() {
+    public Integer getProductPrice() {
         return productPrice;
     }
 }
