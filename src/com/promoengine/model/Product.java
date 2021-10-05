@@ -32,4 +32,7 @@ public class Product {
     public Integer getProductPrice() {
         return productPrice;
     }
+
+    // TODO: 05/10/2021  
+    //we can add more products and configure product prices here as an additional functionality
 }
